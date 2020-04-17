@@ -6,6 +6,10 @@ NodeJS implementation.
 
 ## How to Setup and Run
 
+Follow the instructions in the supplied test answer document! 
+
+Then run:
+
 ```Bash
 $ npm i
 $ npm run example
