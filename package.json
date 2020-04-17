@@ -1,0 +1,28 @@
+{
+  "name": "github-Test",
+  "version": "1.0.0",
+  "description": "GitHub ecosystem writer test",
+  "scripts": {
+    "example": "node main.js",
+    "stop-win": "Taskkill /IM node.exe /F",
+    "stop-linux": "killall node"
+  },
+  "engines": {
+    "node": "=13.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thoughtscript/github-test"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Node",
+    "GitHub"
+  ],
+  "author": "Adam I. Gerard",
+  "devDependencies": {},
+  "dependencies": {
+    "@octokit/auth-token": "=2.4.0",
+    "@octokit/rest": "=17.3.0"
+  }
+}
